@@ -58,7 +58,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #FFA804; }
+a b.light-color:hover{ text-decoration: none; color: #268AFF; }
 
 b{ font-weight: 600; }
 
@@ -87,7 +87,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin-bottom: 20px; display: block; background: #FFA804; }
+	margin-bottom: 20px; display: block; background: #268AFF; }
 	
 .margin-t-10{ margin-top: 10px; }
 
@@ -109,7 +109,7 @@ b.max-bold{ font-weight: 700; }
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #FFAD01; color: #fff; }
+header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #268AFF; color: #fff; }
 
 header .info{ margin-bottom: 10px; }
 

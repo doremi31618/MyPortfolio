@@ -58,7 +58,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #FFA804; }
+a b.light-color:hover{ text-decoration: none; color: #268AFF; }
 
 b{ font-weight: 600; }
 
@@ -115,7 +115,7 @@ b.max-bold{ font-weight: 700; }
 	right: 0; background: rgba(0,0,0, .2); }
 
 	
-/* HEADER */
+/* HEADER */
 .intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
 	background: #FFAD01; color: #fff; }
 
