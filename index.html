@@ -29,19 +29,14 @@
 
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		crossorigin="anonymous"></script>
+	
 
 </head>
 
 <body>
 	
 	<header>
-		<nav class="navbar navbar-expand-md navbar-light bg-light" style="height:80px">
+		<nav class="navbar navbar-expand-md navbar-light bg-light" style="position: fixed; z-index: 31; width:100%">
 			<a class="navbar-brand" href="index.html">Eric's website</a>
 			<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
@@ -57,15 +52,14 @@
 						<a class="nav-link" href="https://medium.com/ericzhan-publication">Articles</a>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="#">Recent Works</a>
+						<a class="nav-link" href="#Project">Recent Works</a>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="#">Labs</a>
+						<a class="nav-link" href="#Lab">Labs</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-
 		<div class="container">
 			<div class="heading-wrapper">
 				<div class="row">
@@ -115,7 +109,7 @@
 					<div class="intro">
 						<div class="profile-img"><img src="images/profile-1-250x250.jpg" alt=""></div>
 						<h2><b>Eric Zhan</b></h2>
-						<h4 class="font-yellow">Interactive Engineer/ Game Engineer</h4>
+						<h4 class="font-yellow">Interactive Engineer / Unity Engineer</h4>
 						<ul class="information margin-tb-30">
 							<li><b>BORN : </b>July 03, 1997</li>
 							<li><b>EMAIL : </b>doremi31618@gmail.com</li>
@@ -129,7 +123,7 @@
 							<li><a href="https://www.facebook.com/eric.doreme"><i class="ion-social-facebook"></i></a>
 							</li>
 							<li><a href="https://github.com/doremi31618"><i class="ion-social-github"></i></a></li>
-							<li><a href="https://medium.com/@doremi31618"><i class="ion-social-wordpress"></i></a></li>
+							<li><a href="https://medium.com/@doremi31618" style="line-height: 42px;"><ion-icon name="logo-medium"></ion-icon></a></li>
 						</ul>
 					</div><!-- intro -->
 				</div><!-- col-sm-8 -->
@@ -137,7 +131,7 @@
 		</div><!-- container -->
 	</section><!-- intro-section -->
 
-	<section class="portfolio-section section">
+	<section class="portfolio-section section" id="Project">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
@@ -164,64 +158,81 @@
 		</div><!-- container -->
 
 		<div class="portfolioContainer">
-
 			<div class="p-item Depth-camera Device" align="center">
 				<a href="https://github.com/doremi31618/Unity3D_RealTimeEffect_AIParticleSystem" data-fluidbox>
 					<img src="images/ai_particle.png"><img>
-					<b><h5>噗通！主視覺牆</h5></b>
+					<b>
+						<h5>噗通！主視覺牆</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item Depth-camera Device" align="center">
 				<a href="https://github.com/doremi31618/Unity3D_HokuyoURG-Arduino-Unity3D-Integration" data-fluidbox>
 					<img src="images/corridor.jpg"><img>
-					<b><h5>情境走廊</h5></b>
+					<b>
+						<h5>情境走廊</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item VR " align="center">
 				<a href="images/tytts.png" data-fluidbox>
 					<img src="images/tytts.png"><img>
-					<b><h5>I'll take you to the silence</h5></b>
+					<b>
+						<h5>I'll take you to the silence</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item VR " align="center">
 				<a href="MyWorks/Works_icemaker.html" data-fluidbox>
 					<img src="images/icemaker.png"><img>
-					<b><h5>冰塊大亨</h5></b>
+					<b>
+						<h5>冰塊大亨</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 
-			
+
 
 			<div class="p-item Device " align="center">
 				<a class="img" href="images/xmas-snowball.png" data-fluidbox>
 					<img src="images/xmas-snowball.png"><img>
-					<b><h5>xmas-snowball</h5></b>
+					<b>
+						<h5>xmas-snowball</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
-			
+
 			<div class="p-item AR VR " align="center">
 				<a class="img" href="images/jzn.png" data-fluidbox>
 					<img src="images/university-responsibility.png"><img>
-					<b><h5>牡丹鄉實境風景明信片</h5></b>
+					<b>
+						<h5>牡丹鄉實境風景明信片</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item Depth-camera " align="center">
 				<a class="img" href="https://if.plus/work/99" data-fluidbox>
 					<img src="images/jzn.png"><img>
-					<b><h5>舊振南餅舖/當若科技藝術</h5></b>
+					<b>
+						<h5>舊振南餅舖/當若科技藝術</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
-			
+
 			<div class="p-item  " align="center">
 				<a class="img" href="https://if.plus/work/95" data-fluidbox>
 					<img src="images/whiteNight.png"><img>
-					<b><h5>眾獸鬧白晝/當若科技藝術</h5></b>
+					<b>
+						<h5>眾獸鬧白晝/當若科技藝術</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item Depth-camera " align="center">
 				<a class="img" href="https://if.plus/work/95" data-fluidbox>
 					<img src="images/greenbackground.png"><img>
-					<b><h5>綠幕體感互動/如牧創新</h5></b>
+					<b>
+						<h5>綠幕體感互動/如牧創新</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 		</div><!-- portfolioContainer -->
@@ -236,7 +247,7 @@
 					</div>
 				</div><!-- col-sm-4 -->
 				<div class="col-sm-8">
-					
+
 				</div><!-- col-sm-8 -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -246,33 +257,41 @@
 			<div class="p-item Depth-camera Device" align="center">
 				<a href="https://github.com/doremi31618/Unity3D_Psychological_Experiment_GKT" data-fluidbox>
 					<img src="images/gkt.jpg"><img>
-					<b><h5>VR-Guilty Knowledge Test</h5></b>
+					<b>
+						<h5>VR-Guilty Knowledge Test</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 
 			<div class="p-item" align="center">
 				<a href="https://github.com/doremi31618/Processing_Psychological_Apparent-Motion" data-fluidbox>
 					<img src="images/apparent_motion.gif"><img>
-					<b><h5>Apparent Motion</h5></b>
+					<b>
+						<h5>Apparent Motion</h5>
+					</b>
 				</a>
 			</div>
 
 			<div class="p-item " align="center">
 				<a href="https://github.com/doremi31618/Unity3D_Psychological_Experiment_NeverEndingMaze" data-fluidbox>
 					<img src="images/Building.png"><img>
-					<b><h5>Never Ending Maze</h5></b>
+					<b>
+						<h5>Never Ending Maze</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 
 			<div class="p-item" align="center">
 				<a href="https://github.com/doremi31618/Unity3D_VR_Psychological-safety-distance-test" data-fluidbox>
 					<img src="images/Test.gif"><img>
-					<b><h5>safety-distance-test</h5></b>
+					<b>
+						<h5>VR-safety distance test</h5>
+					</b>
 				</a>
 			</div><!-- p-item -->
 
 	</section><!-- Psychological Experiment-section -->
-
+	
 	<section class="about-section section" id="about-section">
 		<div class="container">
 			<div class="row">
@@ -284,70 +303,62 @@
 				</div><!-- col-sm-4 -->
 				<div class="col-sm-8">
 					<p class="margin-b-50">
-						互動軟體工程師。畢業於國立台北科技大學 互動設計系。創作專注於互動多媒體與跨領域合作的可能性，並樂於將所見所聞製作成人人都能輕鬆理解的教學文章分享於網路平台。作品跨足了互動設計、XR應用、體感與裝置，並跨界與認知心理學、藝術劇團合作。亦曾參與過多項科技部計劃。目前主力為Unity互動程式與跨領域合作
+						互動軟體工程師。畢業於國立台北科技大學
+						互動設計系。創作專注於互動多媒體與跨領域合作的可能性，並樂於將所見所聞製作成人人都能輕鬆理解的教學文章分享於網路平台。作品跨足了互動設計、XR應用、體感與裝置，並跨界與認知心理學、藝術劇團合作。亦曾參與過多項科技部計劃。目前主力為Unity互動程式與跨領域合作
 					</p>
 
 
 				</div><!-- col-sm-8 -->
+
 			</div><!-- row -->
+			<div class="row">
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="radial-prog-area margin-b-30">
+						<div class="radial-progress" data-prog-percent="1">
+							<div></div>
+							<h6 class="progress-title">Unity3D / c#</h6>
+							
+						</div>
+					</div><!-- radial-prog-area-->
+				</div><!-- col-sm-6-->
+			
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="radial-prog-area margin-b-30">
+						<div class="radial-progress" data-prog-percent=".97">
+							<div></div>
+							<h6 class="progress-title">Processing</h6>
+						</div>
+					</div><!-- radial-prog-area-->
+				</div><!-- col-sm-6-->
+				
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="radial-prog-area margin-b-30">
+						<div class="radial-progress" data-prog-percent=".67">
+							<div></div>
+							<h6 class="progress-title">Python</h6>
+						</div>
+					</div><!-- radial-prog-area-->
+				</div><!-- col-sm-6-->
+				
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="radial-prog-area margin-b-50">
+						<div class="radial-progress" data-prog-percent=".60">
+							<div></div>
+							<h6 class="progress-title">HTML/CSS/JS</h6>
+						</div>
+					</div><!-- radial-prog-area-->
+				</div><!-- col-sm-6-->
 		</div><!-- container -->
 	</section><!-- about-section -->
 
-	<!--
-		
-	<section class="experience-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Participation project</b></h3>
-						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
-					</div>
-				</div> <!-- col-sm-4 
-				<div class="col-sm-8">
-				
-					<div class="experience margin-b-50">
-						<h4><b>JUNIOR PROJECT MANAGER</b></h4>
-						<h5 class="font-yellow"><b>DESIGN STUDIO</b></h5>
-						<h6 class="margin-t-10">MARCH 2015 - PRESENT</h6>
-						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						<ul class="list margin-b-30">
-							<li>Duis non volutpat arcu, eu mollis tellus.</li>
-							<li>Quis consequat nulla effi citur at.</li>
-							<li>Sed finibus aliquam neque sit.</li>
-						</ul>
-					</div><!-- experience -
 
-					<div class="experience margin-b-50">
-						<h4><b>WEB MASTER/WEB DEVELOPER</b></h4>
-						<h5 class="font-yellow"><b>DESIGN & WEB STUDIO</b></h5>
-						<h6 class="margin-t-10">APRIL 2014 - FEBRUARY 2015</h6>
-						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						<ul class="list margin-b-30">
-							<li>Duis non volutpat arcu, eu mollis tellus.</li>
-							<li>Quis consequat nulla effi citur at.</li>
-							<li>Sed finibus aliquam neque sit.</li>
-						</ul>
-					</div><!-- experience 
-					
-				</div><!-- col-sm-8 
-			</div><!-- row -
-		</div><!-- container -
-		
-	</section><!-- experience-section -->
 
 	<section class="education-section section">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="heading">
-						<h3><b>Education</b></h3>
+						<h3><b>Education & Learning</b></h3>
 						<h6 class="font-lite-black"><b>教育與學習</b></h6>
 					</div>
 				</div><!-- col-sm-4 -->
@@ -356,33 +367,75 @@
 						<div class="education margin-b-50">
 							<h4><b>國立台北科技大學</b></h4>
 							<h5 class="font-yellow"><b>互動設計系</b></h5>
-							<div>
-								<h6 class="font-black margin-tb-30">Simulate the creatures under microscope</h6>
-
-							</div>
 						</div><!-- education -->
 
 						<div class="education margin-b-50">
 							<h4><b>腦機介面微學程</b></h4>
 							<h5 class="font-yellow"><b>北科大 跨領域課程</b></h5>
 							<div class="margin-b-50">
-								<h6 class="font-black margin-tb-30">Brain Computer Interface</h6>
+								<ul class="list font-black margin-tb-30">
+									<li> - 程式設計入門</li><br>
+									<li> - 大腦裡的偵探 : 知覺、感覺與錯覺</li><br>
+									<li> - 機器學習</li><br>
+									<li> - 腦機介面系統與應用</li><br>
+								</ul>
 
 							</div><!-- visual effect graph -->
 						</div><!-- education -->
 
 						<div class="education margin-b-50">
-							<h4><b>Cpursera</b></h4>
-							<h5 class="font-yellow"><b>線上學習平台</b></h5>
+							<h4><b><a href="https://www.coursera.org/">Coursera</b></a></h4>
+							<h5 class="font-yellow"><b>線上學習平台 </b></h5>
+							
+							
+							<ul>
+								<li>
+									<p>
+										<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/LA6FMVZC8YYS">
+										    <h6 class="font-black"><b>Mathematics for Machine Learning</b></h6>
+										</a>
+										<a href="https://www.coursera.org/account/accomplishments/certificate/2AARSD72QVAD">
+										    <h6> - Mathematics for Machine Learning: Linear Algebra</h6>
+										</a>
+										<a href="https://www.coursera.org/account/accomplishments/certificate/8BSN67L8Q3Q7">
+											<h6> - Mathematics for Machine Learning: Multivariate Calculus</h6>
+										</a>
+										<a href="https://www.coursera.org/account/accomplishments/certificate/LSGAKMM5ESHC">
+											<h6> - Mathematics for Machine Learning: PCA</h6>
+										</a>
+									</p>
+								</li>
+								
+								<li>
+									<p>
+										<h6 class="margin-tb-30"> </h6>
+										<h6 class ="font-black "><b>Python for everybody</b></h6>
+										<a href="https://www.coursera.org/account/accomplishments/certificate/FWM4A2UWSW3Z">
+											<h6> - Programming for Everybody (Getting Started with Python)</h6>
+										</a>
+										<a href="https://www.coursera.org/account/accomplishments/certificate/6B8QALUSEE7H">
+											<h6> - Python Data Structures</h6>
+										</a><br>
+										<a href="https://www.coursera.org/account/accomplishments/certificate/UNPRM8J5Z24L">
+											<h6> - Using Python to Access Web Data</h6>
+										</a>
+									</p>
+								</li>
 
+								<li>
+									<p>
+										<h6 class="margin-tb-30"> </h6>
+										<h6 class ="font-black "><b>Django for everybody</b></h6>
+										<a href="https://www.coursera.org/account/accomplishments/certificate/M2NDEHDJMSVM">
+											<h6> - Web Application Technologies and Django</h6>
+										</a>
+									</p>
+								</li>
+							</ul>
 							<div class="margin-b-50">
-								<h6 class="font-black margin-tb-30">AR application</h6>
+
 							</div>
 
-							<div class="margin-b-50">
-								<h6 class="font-black margin-tb-30">VR application</h6>
-
-							</div>
 						</div><!-- education -->
 
 					</div><!-- education-wrapper -->
@@ -391,85 +444,85 @@
 		</div><!-- container -->
 
 	</section><!-- about-section -->
-	
+
 	<section class="experience-section section">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="heading">
-						<h3><b>Participation project</b></h3>
-						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+						<h3><b>Experience</b></h3>
 					</div>
 				</div> <!-- col-sm-4  -->
 				<div class="col-sm-8">
-				
-					<div class="experience margin-b-50">
-						<h4><b>JUNIOR PROJECT MANAGER</b></h4>
-						<h5 class="font-yellow"><b>DESIGN STUDIO</b></h5>
-						<h6 class="margin-t-10">MARCH 2015 - PRESENT</h6>
-						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
+					<div class ="experience">
+						<h4><b>RESUME</b></h4>
+						<h5><b>WORK/COMPTETITION</b></h5>
+						<h5 class="margin-tb-30">2017</h5>
 						<ul class="list margin-b-30">
-							<li>Duis non volutpat arcu, eu mollis tellus.</li>
-							<li>Quis consequat nulla effi citur at.</li>
-							<li>Sed finibus aliquam neque sit.</li>
+							<li>擔任牡丹鄉科技部專案研究助理</li>
+							<li>擔任保安宮擴增實境整合專案研究助理</li>
+							<li>擔任失智症與虛擬實境整合專案研究助理</li>
+							<li>明道中學聖誕節互動專案 程式設計</li>
+							<li>中華民國工業安全衛生協會Unity講師</li>
+						</ul>
+						<h5 class="margin-tb-30">2018</h5>
+						<ul class="list margin-b-30">
+							<li>如牧創新有限公司  互動程式實習生</li>
+							<li> 擔任葛如鈞實驗室 科技部專案 研究助理</li>
+						</ul>
+						<h5 class="margin-tb-30">2019</h5>
+						<ul class="list margin-b-30">
+							<li>2019XR黑客松 產品組 第三名 </li>
+							<li>噗通!互動設計系畢業展覽 主視覺互動牆 程式設計</li>
+							<li>噗通!互動設計系畢業展覽 互動裝置 程式設計</li>
+							<li>當若科技藝術股份有限公司  互動式實習生 </li>
+						</ul>
+						<h5 class="margin-tb-30">2020 - 2021</h5>
+						<ul class="list margin-b-30">
+							<li>臺北醫學大學大腦與意識研究中心 lab研究助理 (現在)</li>
+						</ul>
+					</div>
+					<div class="experience margin-b-50">
+						<h4><b>如牧創新</b></h4>
+						<h5 class="font-yellow"><b>互動多媒體程式實習生</b></h5>
+						<h6 class="margin-t-10"> JANURARY 2018 </h6>
+						<h5 class="margin-tb-30"><b>參與專案 ： </b></h5>
+						<ul class="list margin-t-10">
+							<li><h5>台灣農業博覽會 - 綠幕拍照亭</h5></li>
 						</ul>
 					</div><!-- experience  -->
 					<div class="experience margin-b-50">
-						<h4><b>WEB MASTER/WEB DEVELOPER</b></h4>
-						<h5 class="font-yellow"><b>DESIGN & WEB STUDIO</b></h5>
-						<h6 class="margin-t-10">APRIL 2014 - FEBRUARY 2015</h6>
-						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						<ul class="list margin-b-30">
-							<li>Duis non volutpat arcu, eu mollis tellus.</li>
-							<li>Quis consequat nulla effi citur at.</li>
-							<li>Sed finibus aliquam neque sit.</li>
+						<h4><b>當若科技藝術</b></h4>
+						<h5 class="font-yellow"><b>互動多媒體程式實習生</b></h5>
+						<h6 class="margin-t-10">JUNE 2019 - 2020</h6>
+						<h5 class="margin-tb-30"><b>參與專案 ： </b></h5>
+						<ul class="list margin-t-10">
+							<li><h5>白晝之夜 - 眾獸鬧白晝</h5></li>
+							<li><h5>台達電 - 互動投影牆</h5></li>
+							<li><h5>舊振南 - 互動拍照機台</h5></li>
+							<li><h5>許願光之樹 （練習）</h5></li>
+							<li><h5>出缺勤統計軟體</h5></li>
 						</ul>
 					</div><!-- experience  -->
-					
+					<div class="experience margin-b-50">
+						<h4><b>北醫大 大腦與意識研究中心</b></h4>
+						<h5 class="font-yellow"><b>研究助理</b></h5>
+						<h6 class="margin-t-10">2020 - now</h6>
+						<h5 class="margin-tb-30"><b>參與研究 ： </b></h5>
+						<ul class="list margin-t-10">
+							<li><h5>Never Ending Maze</h5></li>
+							<li><h5>GKT (Guilty Knowledge Test)</h5></li>
+						</ul>
+					</div><!-- experience  -->
+
 				</div><!-- col-sm-8  -->
 			</div><!-- row - -->
 		</div><!-- container - -->
-		
+
 	</section><!-- experience-section -->
-	<section class="counter-section" id="counter">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-rb-35">
-						<h1 class="title"><b><span class="counter-value" data-duration="700" data-count="3">0</span></b>
-						</h1>
-						<h5 class="desc"><b>Interdisciplinary learning</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="1400"
-									data-count="34">0</span></b></h1>
-						<h5 class="desc"><b>Project Completed</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="2000"
-									data-count="3000">0</span></b></h1>
-						<h5 class="desc"><b>Monthly Article click rate</b></h5>
-					</div><!-- margin-b-30 -->
-				</div><!-- col-md-3-->
-
-			</div><!-- row-->
-		</div><!-- container-->
-	</section><!-- counter-section-->
 
 	<footer>
-		<p class="copyright">
+		<p>
 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			Copyright &copy;
 			<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
@@ -479,6 +532,39 @@
 
 
 	</footer>
+	<!--
+	<section class="counter-section" id="counter">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-rb-35">
+						<h1 class="title"><b><span class="counter-value" data-duration="700" data-count="3">0</span></b>
+						</h1>
+						<h5 class="desc"><b>Interdisciplinary learning</b></h5>
+					</div><!-- counter 
+	</div> -->
+	<!-- col-md-3
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="1400"
+									data-count="34">0</span></b></h1>
+						<h5 class="desc"><b>Project Completed</b></h5>
+					</div><!-- counter 
+				</div><!-- col-md-3
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="2000"
+									data-count="3000">0</span></b></h1>
+						<h5 class="desc"><b>Monthly Article click rate</b></h5>
+					</div><!-- margin-b-30
+				</div><!-- col-md-3
+
+			</div><!-- row
+		</div><!-- container
+	</section><!-- counter-section
+-->
 
 
 	<!-- SCIPTS -->
@@ -498,6 +584,15 @@
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 
 	<script src="common-js/scripts.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
 </body>
 
