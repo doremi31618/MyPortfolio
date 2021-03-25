@@ -1,12 +1,11 @@
 # MyPorfolio
-a static html
+view [my website](https://doremi31618.github.io/MyPortfolio/)
 
 ##### web page structure
 
-- index
-    |- Works
-    |- About me
-    |- Lab
-    |- Articles
+- index <br>
+    |- Works <br>
+    |- About me <br>
+    |- Lab <br>
+    |- Articles <br>
 
-    
