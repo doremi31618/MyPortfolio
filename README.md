@@ -1,2 +1,12 @@
 # MyPorfolio
-a static html5 website
+a static html
+
+##### web page structure
+
+- index
+    |- Works
+    |- About me
+    |- Lab
+    |- Articles
+
+    
