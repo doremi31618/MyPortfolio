@@ -281,34 +281,8 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .project-section {position: relative; font-family: 'TaipiSans'; }
 
 .project-insectiontro .title-img{
-	max-width: auto;
 }
 
 .project-insectiontro .container{
 	font-family:  'TaipiSans','Noto Sans TC';
-}
-
-.project-section .intro .title h3{
-	
-	font-style: normal;
-	font-size: large;
-	margin:10px;
-}
-
-.project-isectionntro .intro .title h3{
-	font-family: 'TaipiSans';
-	font-style: normal;
-	font-size: large;
-	margin:10px;
-}
-
-.project-section .intro .text {
-	margin:10px;
-	
-}
-
-.project-section .intro .text h5{
-	font-family: 'TaipiSans';
-	font-style: normal;
-	width:60%;
 }
