@@ -300,3 +300,32 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	width: 100%;
 	padding-bottom:30px;
 }
+
+/* ---------------------------------
+12. lab SECTION
+--------------------------------- */
+
+.lab-section {
+	font-family: 'TaipiSans','Noto Sans TC';
+ }
+
+ .lab-section .container{
+	margin-top: 30px;
+ }
+
+ .lab-section .container .title{
+	margin-bottom: 50px;
+	display: block; 
+ }
+ .lab-section .container .heading{
+	margin-bottom: 10px; 
+ }
+ .lab-section .container .heading:before{
+	content:''; height: 10px; width: 50px; border-radius: 5px;
+	padding-top:10px;
+	margin-top: 20px; 
+	margin-bottom: 5px; 
+	display: block; 
+	background: #bae93a; 
+ }
+
