@@ -1,4 +1,22 @@
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1920px) {
+	/* ---------------------------------
+	9. COUNTER SECTION
+	--------------------------------- */
 
+	.counter-section{ text-align: center; padding: 50px 0 20px; }
+
+	.counter{ display: inline-block; }
+	
+	.counter .desc{ text-align: left; }
+
+	/* ---------------------------------
+	9. PROJECT SECTION
+	--------------------------------- */
+	
+	.project-section .container {width: 536px;}
+}
 
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
@@ -18,7 +36,6 @@
 	--------------------------------- */
 	
 	.project-section .container {width: 536px;}
-	.project-section .education:after{ display: none; }
 }
 
 /* Screens Resolution : 992px
@@ -36,7 +53,6 @@
 	--------------------------------- */
 	
 	.project-section .container {width: 536px;}
-	.project-section .education:after{ display: none; }
 	
 }
 
