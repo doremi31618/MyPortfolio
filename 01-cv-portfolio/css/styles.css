@@ -172,7 +172,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 5. PORFOLIO SECTION
 --------------------------------- */
 
-.portfolio-section{ padding-bottom: 0; }
+.portfolio-section{ padding-bottom: 0; font-family:  'TaipiSans','Noto Sans TC';}
 
 .portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
 
@@ -184,7 +184,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .portfolio-section .p-item{ width: 33.333%; padding: 0 7.5px 0px;  margin-top: 15px;}
 
-.portfolio-section .p-item a{ display: inline; }
+/* .portfolio-section .p-item a{ display: inline; } */
 
 .portfolio-section .p-item.p-item-2 .img:first-child{ float: left; width: 50%; padding-right: 7.5px; }
 
@@ -195,7 +195,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 6. ABOUT SECTION
 --------------------------------- */
 
-.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
+.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; font-family:  'TaipiSans','Noto Sans TC';}
 
 .radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
 	padding-bottom: 25px!important; color: #333!important; }
@@ -278,11 +278,15 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 11. project into SECTION
 --------------------------------- */
 
-.project-section {position: relative; font-family: 'TaipiSans'; }
+.project-section {position: relative; font-family: 'TaipiSans','Noto Sans TC'; }
 
 .project-insectiontro .title-img{
 }
 
 .project-insectiontro .container{
+	font-family:  'TaipiSans','Noto Sans TC';
+}
+
+.project-section .container .row .heading h3{
 	font-family:  'TaipiSans','Noto Sans TC';
 }

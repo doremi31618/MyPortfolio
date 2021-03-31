@@ -29,10 +29,13 @@
 
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 
-	<script src="jquery.js" type="text/javascript"></script>
 
-<script src="jquery.lazyload.js" type="text/javascript"></script>
+<!-- jQuery v1.9.1 -->
+<!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+<!-- Lazy Load v2.0.0-beta.2 -->
 
+<script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 
 </head>
 
@@ -110,7 +113,7 @@
 				<div class="col-md-1 col-lg-2"></div>
 				<div class="col-md-10 col-lg-8">
 					<div class="intro">
-						<div class="profile-img"><img src="images/profile-1-250x250.jpg" alt=""></div>
+						<div class="profile-img"><img class="lazy" src="images/profile-1-250x250.jpg" alt=""></div>
 						<h2><b>Eric Zhan</b></h2>
 						<h4 class="font-yellow">Interactive Engineer / Unity Engineer</h4>
 						<ul class="information margin-tb-30">
@@ -140,6 +143,7 @@
 				<div class="col-sm-4">
 					<div class="heading">
 						<h3><b>Project</b></h3>
+						<h5 class="font-lite-black"><b>專案</b></h5>
 					</div>
 				</div><!-- col-sm-4 -->
 				<div class="col-sm-8">
@@ -162,32 +166,30 @@
 
 		<div class="portfolioContainer">
 			<div class="p-item Depth-camera Device" align="center">
-				<a href="https://medium.com/ericzhan-publication/噗通-一個多樣化的小型生態圈-ccdc75d95fcb?source=---------0-----------------------" data-fluidbox>
-					<img src="images/ai_particle.png"><img>
-					<b>
-						<h5>噗通！主視覺牆</h5>
-					</b>
+				<a href="MyWorks/Works_aiparticle.html" data-fluidbox>
+					<img class="lazy" src="images/ai_particle.png"><img>
+					<b><h5>噗通！主視覺牆</h5></b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item Depth-camera Device" align="center">
-				<a href="https://medium.com/ericzhan-publication/hokuyo-urg-使用hokuyo-urg-arduino完成unity互動體驗-16ae97d0770?source=---------9-----------------------" data-fluidbox>
-					<img src="images/corridor.jpg"><img>
+				<a href="MyWorks/Works_aiparticle.html" data-fluidbox>
+					<img class="lazy" src="images/corridor.jpg"><img>
 					<b>
 						<h5>情境走廊</h5>
 					</b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item VR " align="center">
-				<a href="https://github.com/doremi31618/Unity3D_VR_TYTTS" data-fluidbox>
-					<img src="images/tytts.png"><img>
+				<a href="MyWorks/Works_tytts.html" data-fluidbox>
+					<img class="lazy" src="images/tytts.png"><img>
 					<b>
 						<h5>I'll take you to the silence</h5>
 					</b>
 				</a>
 			</div><!-- p-item -->
 			<div class="p-item VR " align="center">
-				<a href="Works_icemaker.html" data-fluidbox>
-					<img src="images/icemaker.png"><img>
+				<a href="MyWorks/Works_icemaker.html" data-fluidbox>
+					<img class="lazy" src="images/icemaker.png"><img>
 					<b>
 						<h5>冰塊大亨</h5>
 					</b>
@@ -197,8 +199,8 @@
 
 
 			<div class="p-item Device " align="center">
-				<a class="img" href="Works_xmas.html" data-fluidbox>
-					<img src="images/snowman_battle.png"><img>
+				<a class="img" href="MyWorks/Works_xmas.html" data-fluidbox>
+					<img class="lazy" src="images/snowman_battle.png"><img>
 					<b>
 						<h5>xmas-snowman battle</h5>
 					</b>
@@ -206,8 +208,8 @@
 			</div><!-- p-item -->
 
 			<div class="p-item Device " align="center">
-				<a class="img" href="Works_xmas.html" data-fluidbox>
-					<img src="images/xmas-snowball.png"><img>
+				<a class="img" href="MyWorks/Works_xmas.html" data-fluidbox>
+					<img class="lazy" src="images/xmas-snowball.png"><img>
 					<b>
 						<h5>xmas-snowball</h5>
 					</b>
@@ -216,7 +218,7 @@
 
 			<div class="p-item AR" align="center">
 				<a class="img" href="https://www.instagram.com/p/BlyBQbZDjXO/?utm_source=ig_web_copy_link" data-fluidbox>
-					<img src="images/university-responsibility.png"><img>
+					<img class="lazy" src="images/university-responsibility.png"><img>
 					<b>
 						<h5>牡丹鄉實境風景明信片</h5>
 					</b>
@@ -225,7 +227,7 @@
 
 			<div class="p-item VR " align="center">
 				<a class="img" href="https://www.instagram.com/p/BikRAIXlxGV/" data-fluidbox>
-					<img src="images/VR_postcard.png"><img>
+					<img class="lazy" src="images/VR_postcard.png"><img>
 					<b>
 						<h5>牡丹鄉實境風景明信片 VR體驗版</h5>
 					</b>
@@ -234,7 +236,7 @@
 
 			<div class="p-item Depth-camera " align="center">
 				<a class="img" href="https://if.plus/work/99" data-fluidbox>
-					<img src="images/jzn.png"><img>
+					<img class="lazy" src="images/jzn.png"><img>
 					<b>
 						<h5>舊振南餅舖/當若科技藝術</h5>
 					</b>
@@ -243,7 +245,7 @@
 
 			<div class="p-item  " align="center">
 				<a class="img" href="https://if.plus/work/95" data-fluidbox>
-					<img src="images/whiteNight.png"><img>
+					<img class="lazy" src="images/whiteNight.png"><img>
 					<b>
 						<h5>眾獸鬧白晝/當若科技藝術</h5>
 					</b>
@@ -251,7 +253,7 @@
 			</div><!-- p-item -->
 			<div class="p-item Depth-camera " align="center">
 				<a class="img" href="https://www.rumuinno.com/magic-studio" data-fluidbox>
-					<img src="images/greenbackground.png"><img>
+					<img class="lazy" src="images/greenbackground.png"><img>
 					<b>
 						<h5>綠幕體感互動/如牧創新</h5>
 					</b>
@@ -265,7 +267,8 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="heading">
-						<h3><b>Psychological Experiment</b></h3>
+						<h3><b>Experiment</b></h3>
+						<h5 class="font-lite-black"><b>心理學實驗</b></h5>
 					</div>
 				</div><!-- col-sm-4 -->
 				<div class="col-sm-8">
@@ -278,7 +281,7 @@
 
 			<div class="p-item Depth-camera Device" align="center">
 				<a href="https://github.com/doremi31618/Unity3D_Psychological_Experiment_GKT" data-fluidbox>
-					<img src="images/gkt.jpg"><img>
+					<img class="lazy" src="images/gkt.jpg"><img>
 					<b>
 						<h5>VR-Guilty Knowledge Test</h5>
 					</b>
@@ -287,7 +290,7 @@
 
 			<div class="p-item" align="center">
 				<a href="https://medium.com/ericzhan-publication/apparent-motion-似動現象-癲癇慎入-18780d989702?source=---------2-----------------------" data-fluidbox>
-					<img src="images/apparent_motion.gif"><img>
+					<img class="lazy" src="images/apparent_motion.gif"><img>
 					<b>
 						<h5>Apparent Motion</h5>
 					</b>
@@ -296,7 +299,7 @@
 
 			<div class="p-item " align="center">
 				<a href="https://github.com/doremi31618/Unity3D_Psychological_Experiment_NeverEndingMaze" data-fluidbox>
-					<img src="images/Building.png"><img>
+					<img class="lazy" src="images/Building.png"><img>
 					<b>
 						<h5>Never Ending Maze</h5>
 					</b>
@@ -305,7 +308,7 @@
 
 			<div class="p-item" align="center">
 				<a href="https://github.com/doremi31618/Unity3D_VR_Psychological-safety-distance-test" data-fluidbox>
-					<img src="images/Test.gif"><img>
+					<img class="lazy" src="images/Test.gif"><img>
 					<b>
 						<h5>VR-safety distance test</h5>
 					</b>
@@ -606,30 +609,20 @@
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 
 	<script src="common-js/scripts.js"></script>
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.js" integrity="sha512-FwqNPb8ENFXApJKNgRgYq5ok7VoOf5ImaOdzyF/xe/T5jdd/S0xq0CXBLDhpzaemxpQ61X3nLVln6KaczwhKgA==" crossorigin="anonymous"></script>
+	<!-- <script src="common-js/jquery.lazy.js"></script> -->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 		crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-	<script type="text/javascript">
-
-		$(function(){
 		
-		$("img").lazyload({
-		
-		placeholder:"lazy.gif", //加載圖片前的占位圖片
-		
-		effect:"fadeIn" //加載圖片時的效果（淡入），show(直接顯示),fadeIn(淡入),slideDown(下拉)等,常用fadeIn
-		
-		})
-		
-		})
-		
-		</script>
+		<script>
+			$("img.lazy").lazyload({
+			effect : "fadeIn"
+			});
+			</script>
+			
+	
 		
 </body>
 
