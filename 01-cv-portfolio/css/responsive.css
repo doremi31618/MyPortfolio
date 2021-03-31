@@ -12,6 +12,13 @@
 	.counter{ display: inline-block; }
 	
 	.counter .desc{ text-align: left; }
+
+	/* ---------------------------------
+	9. PROJECT SECTION
+	--------------------------------- */
+	
+	.project-section .container {width: 536px;}
+	.project-section .education:after{ display: none; }
 }
 
 /* Screens Resolution : 992px
@@ -23,6 +30,13 @@
 	--------------------------------- */
 
 	.intro-section{ padding-top: 250px; }
+
+	/* ---------------------------------
+	9. EDUCATION SECTION
+	--------------------------------- */
+	
+	.project-section .container {width: 536px;}
+	.project-section .education:after{ display: none; }
 	
 }
 
@@ -80,6 +94,8 @@
 	.education-wrapper:after,
 	.education-wrapper .education:after{ display: none; }
 
+
+
 }
 
 /* Screens Resolution : 575px
@@ -98,7 +114,14 @@
 	--------------------------------- */
 	
 	.portfolio-section .p-item{ width: 100%; }
-	
+
+	/* ---------------------------------
+	9. PROJECT SECTION
+	--------------------------------- */
+	.project-section .title-img {width:100%; min-width:446px}
+	.project-section .container {width:446px;}
+	.project-section .container .row .text{padding-bottom: 10px;}
+	.project-section .container .row .preview{padding: 10px;}
 }
 
 /* Screens Resolution : 479px
