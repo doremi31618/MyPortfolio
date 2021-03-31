@@ -134,16 +134,23 @@
 	/* ---------------------------------
 	9. PROJECT SECTION
 	--------------------------------- */
-	.project-section .title-img {width:100%; min-width:446px}
-	.project-section .container {width:446px;}
+	.project-section {width:100%;}
+	.project-section .title-img {width:100vw; }
+	.project-section .container {width:100vw;}
 	.project-section .container .row .text{padding-bottom: 10px;}
-	.project-section .container .row .preview{padding: 10px;}
 }
 
 /* Screens Resolution : 479px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 479px) {
 
+	/* ---------------------------------
+	9. PROJECT SECTION
+	--------------------------------- */
+	.project-section {width:100vw;}
+	/* .project-section .title-img { max-width:479px}
+	.project-section .container {max-width:479px} */
+	.project-section .container .row .text{padding-bottom: 10px;}
 
 }
 
@@ -160,6 +167,8 @@
 	header .info .icon{ font-size: 25px; }
 
 	header .info .right-area{ margin-left: 35px; }
+
+	
 
 }
 

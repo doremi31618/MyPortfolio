@@ -278,15 +278,25 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 11. project into SECTION
 --------------------------------- */
 
-.project-section {position: relative; font-family: 'TaipiSans','Noto Sans TC'; }
-
-.project-insectiontro .title-img{
-}
+.project-section {
+	position: relative;
+	width: 100vw;
+	font-family: 'TaipiSans','Noto Sans TC';
+ }
 
 .project-insectiontro .container{
+	
 	font-family:  'TaipiSans','Noto Sans TC';
 }
 
 .project-section .container .row .heading h3{
 	font-family:  'TaipiSans','Noto Sans TC';
+}
+
+.project-section .container .row .preview .youtube iframe{
+	width: 100%;
+}
+.project-section .container .row .preview iframe{
+	width: 100%;
+	padding-bottom:30px;
 }
