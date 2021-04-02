@@ -16,6 +16,17 @@
 	--------------------------------- */
 	
 	.project-section .container {width: 536px;}
+
+	
+}
+@media only screen and (min-width: 1200px) {
+	/* ---------------------------------
+	9. lab SECTION
+	--------------------------------- */
+	
+	/* .lab-section .container .lab-item{ 
+		padding-left: 100px;
+	} */
 }
 
 /* Screens Resolution : 992px
@@ -156,7 +167,7 @@
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {
+@media only screen and (max-width: 360px) {
 	
 	/* ---------------------------------
 	3. HEADER
@@ -167,8 +178,15 @@
 	header .info .icon{ font-size: 25px; }
 
 	header .info .right-area{ margin-left: 35px; }
-
-	
+	.lab-section {
+		padding-left:20px
+	 }
+	.lab-section .interval{display:none;}
+	.lab-section .container .preview {
+		width:80vw;
+		max-width:300px;
+		min-width:100px;
+	 }
 
 }
 

@@ -44,6 +44,35 @@
 				 return false;
 			}); 
 		}
+
+		// ISOTOPE PORTFOLIO WITH FILTER
+		if(isExists('.lab-item-collection')){
+			var $container = $('.lab-item-collection');
+			$container.isotope({
+				filter: '*',
+				animationOptions: {
+					duration: 750,
+					easing: 'linear',
+					queue: false
+				}
+			});
+		 
+			$('.labFilter a').click(function(){
+				$('.labFilter .current').removeClass('current');
+				$(this).addClass('current');
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+					filter: selector,
+					animationOptions: {
+						duration: 750,
+						easing: 'linear',
+						queue: false
+					}
+					
+				 });
+				 return false;
+			}); 
+		}
 	
 	});
 	

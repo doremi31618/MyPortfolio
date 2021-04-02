@@ -309,6 +309,10 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	font-family: 'TaipiSans','Noto Sans TC';
  }
 
+ .lab-section h3{
+	font-family: 'TaipiSans','Noto Sans TC';
+ }
+
  .lab-section .container{
 	margin-top: 30px;
  }
@@ -329,6 +333,12 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	background: #bae93a; 
  }
 
- .lab-section .container img{
+ .lab-section .container .preview{
 	padding-left: 5%; 
+	width:60vw;
+ }
+
+ .lab-section .container .preview img{
+	max-width:600px;
+	min-width:300px;
  }
