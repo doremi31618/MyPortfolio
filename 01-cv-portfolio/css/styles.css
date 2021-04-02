@@ -140,7 +140,9 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 /* ---------------------------------
 4. INTRO SECTION
 --------------------------------- */
-
+#name {
+	font-family: 'TaipiSans';
+}
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
 	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
 
