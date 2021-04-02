@@ -329,3 +329,6 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	background: #bae93a; 
  }
 
+ .lab-section .container img{
+	padding-left: 5%; 
+ }
